@@ -1,0 +1,102 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+
+    min-height: 100vh;
+    
+}
+
+main {
+    width: 1024px;
+
+    display: flex;
+    padding-top: 64px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    
+    margin: 0px auto;
+}
+
+
+h1 {
+    font-family: "Dosis", sans-serif;
+    font-weight: normal;
+
+    color: #3F3D56;
+    text-align: center;
+    font-size: 32px;
+
+    margin: 32px auto 16px;
+
+}
+
+span {
+    color: #EE24FF;
+    font-weight: bold;
+
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+  
+    color: #828282;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px; 
+
+    width: 540px;
+    margin-bottom: 32px;
+
+
+}
+
+#Flutuar {
+    color: #828282;
+    font-weight: bold;
+}
+
+strong {
+    color: #3F3D56;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto 40px;
+    
+    
+    font-family: "Open Sans", sans-serif;
+    color: #3F3D56;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 147.682%;
+    gap: 42px;
+    
+    list-style: none;
+
+
+
+}
+
+footer {
+    justify-content: fixed-end;
+    bottom: 0px;
+
+}
+
+#line {
+    border: 1px solid #ECEFF2 ;
+    width: 391px;
+    height: 0px;
+    margin: 64px auto 8px;
+
+}
+
+#onda {
+    width: 100%;
+}
