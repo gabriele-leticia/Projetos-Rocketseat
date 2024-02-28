@@ -28,6 +28,7 @@ body {
     margin: 0 auto;
 }
 
+
 header, nav, nav ul {
     display: flex;
     align-items: center;
@@ -149,6 +150,11 @@ main h1 {
 
 }
 
+footer {
+    --startY: 100%;
+    animation: move 0.2s;
+}
+
 footer p { 
     text-align: center;
     padding: 1.6rem;
@@ -157,4 +163,32 @@ footer p {
     font-size: 1.6rem;
     font-weight: 600;
     line-height: 1.8rem;
+}
+
+/*Animation*/
+header {
+    --startY: -100%;
+    animation: move 0.2s;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(var(--startY));
+    }
+}
+
+.item {
+    animation: appear 0.4s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
 }
